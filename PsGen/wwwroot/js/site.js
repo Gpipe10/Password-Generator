@@ -1,8 +1,8 @@
 ﻿// Variable que almacena el servicio seleccionado, inicialmente no se ha seleccionado ninguno.
-var selectedService = 0;
+var selectedservice1 = 0;
 
 // Función para generar la contraseña.
-function generatePassword(service) {
+function generatePassword(service1) {
     // Longitud de la contraseña predeterminada.
     var passwordLength = 12;
     // Conjuntos de caracteres posibles para la contraseña.
@@ -15,10 +15,10 @@ function generatePassword(service) {
     var chars = lowercaseChars; // Por defecto, se utiliza el conjunto de caracteres en minúsculas.
 
     // Determinar el conjunto de caracteres y la longitud de la contraseña según el servicio seleccionado.
-    if (service === 1) {
+    if (service1 === 1) {
         chars = uppercaseChars + lowercaseChars + numberChars + specialChars;
         passwordLength = 16;
-    } else if (service === 2 || service === 3) {
+    } else if (service1 === 2 || service1 === 3) {
         chars = uppercaseChars + lowercaseChars + numberChars + specialChars;
         passwordLength = 12; // Longitud mínima de 12 caracteres para los servicios 2 y 3.
     }
@@ -31,7 +31,7 @@ function generatePassword(service) {
 
     // Mostrar la contraseña generada en un elemento con el ID "passwordDisplay".
     document.getElementById("passwordDisplay").value = password;
-    selectedService = service; // Actualizar el servicio seleccionado.
+    selectedservice1 = service1; // Actualizar el servicio seleccionado.
 }
 
 // Función para copiar la contraseña al portapapeles.
@@ -67,7 +67,7 @@ function copyPassword() {
 // Función para regenerar la contraseña.
 function regPassword() {
     // Verificar si se ha seleccionado un servicio.
-    if (selectedService === 0) {
+    if (selectedservice1 === 0) {
         // Mostrar una alerta si no se ha seleccionado ningún servicio.
         Swal.fire({
             icon: 'warning',
@@ -77,7 +77,7 @@ function regPassword() {
         });
     } else {
         // Generar la contraseña solo si se ha seleccionado un servicio.
-        generatePassword(selectedService);
+        generatePassword(selectedservice1);
     }
 }
 

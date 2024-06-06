@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danie\\Downloads\\PsGen\\PsGen\\PsGen.csproj": {}
+    "C:\\Users\\Danie\\OneDrive\\Documentos\\PsGen\\PsGen\\PsGen.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danie\\Downloads\\PsGen\\PsGen\\PsGen.csproj": {
+    "C:\\Users\\Danie\\OneDrive\\Documentos\\PsGen\\PsGen\\PsGen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danie\\Downloads\\PsGen\\PsGen\\PsGen.csproj",
+        "projectUniqueName": "C:\\Users\\Danie\\OneDrive\\Documentos\\PsGen\\PsGen\\PsGen.csproj",
         "projectName": "PsGen",
-        "projectPath": "C:\\Users\\Danie\\Downloads\\PsGen\\PsGen\\PsGen.csproj",
+        "projectPath": "C:\\Users\\Danie\\OneDrive\\Documentos\\PsGen\\PsGen\\PsGen.csproj",
         "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danie\\Downloads\\PsGen\\PsGen\\obj\\",
+        "outputPath": "C:\\Users\\Danie\\OneDrive\\Documentos\\PsGen\\PsGen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config",

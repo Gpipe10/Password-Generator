@@ -9,15 +9,15 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PsGen
 build_property.RootNamespace = PsGen
-build_property.ProjectDir = C:\Users\Danie\Downloads\PsGen\PsGen\
+build_property.ProjectDir = C:\Users\Danie\OneDrive\Documentos\PsGen\PsGen\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Danie\Downloads\PsGen\PsGen
+build_property.MSBuildProjectDirectory = C:\Users\Danie\OneDrive\Documentos\PsGen\PsGen
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Danie/Downloads/PsGen/PsGen/Views/Home/Index.cshtml]
+[C:/Users/Danie/OneDrive/Documentos/PsGen/PsGen/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
