@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    /* Fondo de pantalla */
+    background-image: url('../images/fondo.jpg');
+    background-size: cover;
+    background-position: center top;
+    /* Color y fuente de texto */
+    color: white;
+    font-family: Arial, sans-serif;
+    /* Centrado vertical y horizontal del contenido */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilos del contenedor principal */
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center; /* Centrar contenido dentro del contenedor */
+}
+
+/* Estilos del contenedor de botones */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de los botones */
+.btn {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .btn img {
+        width: 100px;
+        height: 100px;
+    }
+
+/* Estilos del formulario */
+form {
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaciado entre elementos */
+    flex-direction: column;
+    position: relative; /* Posicionamiento relativo */
+}
+
+    form input[type="text"] {
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgba(0,0,0,0.2);
+        color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Estilos del contenedor de botones dentro del formulario */
+    form .btn-container {
+        display: flex;
+        width: 100%;
+        margin-top: 200px; /* Ajuste de margen superior */
+        border-radius: 10px;
+        position: absolute; /* Posicionamiento absoluto */
+        bottom: -60px; /* Ajuste de posición desde abajo */
+        left: 500px; /* Ajuste de posición desde la izquierda */
+        top: -175px; /* Ajuste de posición desde arriba */
+    }
+
+        form .btn-container button {
+            width: 70px; /* Ancho de botones */
+            height: 70px;
+            font-size: 12px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+            form .btn-container button i {
+                font-size: 24px; /* Tamaño del icono */
+            }
+
+/* Estilos del logo de la empresa */
+.company-logo {
+    width: 400px;
+    height: 400px;
+    margin: auto; /* Centrado horizontal */
+    display: block; /* No afecta el flujo del texto */
+    margin-top: -100px; /* Ajuste de posición hacia arriba */
+}
